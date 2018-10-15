@@ -1,0 +1,6 @@
+framework module Pods_niplyTests {
+  umbrella header "Pods-niplyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SimpleAnimation (0.4.0)
+
+DEPENDENCIES:
+  - SimpleAnimation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SimpleAnimation
+
+SPEC CHECKSUMS:
+  SimpleAnimation: a3473da5421c65100d68f98a44fc853b81091249
+
+PODFILE CHECKSUM: 1082f1d111d8b7a7988a9824c8c90f90942da000
+
+COCOAPODS: 1.5.3

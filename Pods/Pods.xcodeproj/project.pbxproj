@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2405128A016E60980056EB208233A06C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		44F063B6597B530E4615A7278F7BA843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		501F52F49C7A617AEEE1B30BD94A7A37 /* Pods-niplyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F143F94A5FA564823B9B68AE0E453C1A /* Pods-niplyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4F29F9FAD1EEDAE3C52908DD993C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8CCE659685A5D51AF39E5B1DDC319F0C /* SimpleAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9594FDD7710C653E124DBD900553491F /* SimpleAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */; };
+		992A822ABD3CBB92A7B9B185E1FCFE66 /* Pods-niply-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CBD8CE1C595A20AB2DF7368AE6C28F /* Pods-niply-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9CDF896A0490AA02D3D8560D9FB27C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		BB72C2F3F47D0E0FE36BF27C2CA00145 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */; };
+		DAA75017186F9A53E56B7C370FE3A713 /* Pods-niplyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197988A332AB0190DC617F63A31436E4 /* Pods-niplyTests-dummy.m */; };
+		DBCBA67E8AED6237DDDD79858F6A31EF /* UIView+SimpleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */; };
+		EC03E0AD40B1938C2D994A375AA2F010 /* Pods-niply-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BB63DAF10355E39350FD778A3C1804 /* Pods-niply-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45F2CBDDCAAFA9FC237FE5FAF955DFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153B35055FD894F161518B1A4D019479;
+			remoteInfo = SimpleAnimation;
+		};
+		7A4B47F54AD760F8E359A376226E7D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5390465F98BEBA1A2CFA3B507A31544;
+			remoteInfo = "Pods-niply";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SimpleAnimation.swift"; path = "Source/UIView+SimpleAnimation.swift"; sourceTree = "<group>"; };
+		197988A332AB0190DC617F63A31436E4 /* Pods-niplyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niplyTests-dummy.m"; sourceTree = "<group>"; };
+		1C75C92B7E4780CA4D951A2AAABA1A71 /* Pods-niplyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niplyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		351ED79C0B51023D281162B50360DCD6 /* Pods-niply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niply.release.xcconfig"; sourceTree = "<group>"; };
+		4620FB8EC7E2B3BD86D7A4D5D9359A15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5449500671121C17DA8666EB5DCCFD8D /* Pods-niplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niplyTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E6D73B26757E55738129EB28CEC938 /* SimpleAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleAnimation.modulemap; sourceTree = "<group>"; };
+		574726B6ED9B23C6CAF3FB8FDA9692D2 /* Pods-niplyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niplyTests.modulemap"; sourceTree = "<group>"; };
+		58CBD8CE1C595A20AB2DF7368AE6C28F /* Pods-niply-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niply-umbrella.h"; sourceTree = "<group>"; };
+		60356D113FEDBCA062C9AF91C076C90F /* SimpleAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleAnimation.framework; path = SimpleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		70BB63DAF10355E39350FD778A3C1804 /* Pods-niply-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-niply-dummy.m"; sourceTree = "<group>"; };
+		70E02C0C125CF45E7255FF724E3AE609 /* Pods_niply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niply.framework; path = "Pods-niply.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BDFA77B718AEB1160E17B121E0D439 /* Pods-niply.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-niply.modulemap"; sourceTree = "<group>"; };
+		7F7CD638F3D93017E81F966A52DD3EBA /* Pods-niply-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niply-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A32C3A2AE7E35230F57492BE696144F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4C9F8ED6F0C8142F17977D050D1135 /* Pods-niplyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-niplyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleAnimation-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944AFF48C00E95F80A56AEC0F639CC7C /* Pods-niply-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niply-frameworks.sh"; sourceTree = "<group>"; };
+		9B03706207EA11547BCC8C1129E536EA /* Pods-niplyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niplyTests-frameworks.sh"; sourceTree = "<group>"; };
+		A52C23674750CFCF4F99EF2A6ADC00CC /* Pods_niplyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_niplyTests.framework; path = "Pods-niplyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleAnimation.xcconfig; sourceTree = "<group>"; };
+		B89647A7E4897EF0644AAFD79DD8FF6B /* Pods-niplyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niplyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1CD49A5BC6CFA91BF25205C89FB1C04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-umbrella.h"; sourceTree = "<group>"; };
+		C9903BC0AF940418CE18E6526ADE09A5 /* Pods-niply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-niply.debug.xcconfig"; sourceTree = "<group>"; };
+		D406DFC87AD16510E46BFBD9A1B17BB1 /* SimpleAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleAnimation-prefix.pch"; sourceTree = "<group>"; };
+		DA11D945AC2F86767DE12D82F0D98901 /* Pods-niply-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niply-resources.sh"; sourceTree = "<group>"; };
+		E6E59A229ABE365869D044F071D04A56 /* Pods-niply-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-niply-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F143F94A5FA564823B9B68AE0E453C1A /* Pods-niplyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-niplyTests-umbrella.h"; sourceTree = "<group>"; };
+		FD50C299D59671D23F413E412995913E /* Pods-niplyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-niplyTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322D575C4729D026F976DB1E120393CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CDF896A0490AA02D3D8560D9FB27C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8AF5AD0EF54C434D9FFF29FB72E4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4F29F9FAD1EEDAE3C52908DD993C6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE45F281253178D496AD0782AB0759DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F063B6597B530E4615A7278F7BA843 /* Foundation.framework in Frameworks */,
+				2405128A016E60980056EB208233A06C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1889D76E94D9DC809FA6A2D2E35C262D /* SimpleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				63EA796AEF03B6938DC37FB537D98C77 /* Info.plist */,
+				130316EE4AD1A44C14ECDF559305D9B6 /* UIView+SimpleAnimation.swift */,
+				C32121A9B3FB58A70DE5F1DBD822057F /* Support Files */,
+			);
+			name = SimpleAnimation;
+			path = SimpleAnimation;
+			sourceTree = "<group>";
+		};
+		255ADAFBD08261E48515F5745B2F9E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1889D76E94D9DC809FA6A2D2E35C262D /* SimpleAnimation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6A1FB83F02C5E09AF0D24A6954F616 /* Pods-niplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A32C3A2AE7E35230F57492BE696144F /* Info.plist */,
+				574726B6ED9B23C6CAF3FB8FDA9692D2 /* Pods-niplyTests.modulemap */,
+				1C75C92B7E4780CA4D951A2AAABA1A71 /* Pods-niplyTests-acknowledgements.markdown */,
+				8D4C9F8ED6F0C8142F17977D050D1135 /* Pods-niplyTests-acknowledgements.plist */,
+				197988A332AB0190DC617F63A31436E4 /* Pods-niplyTests-dummy.m */,
+				9B03706207EA11547BCC8C1129E536EA /* Pods-niplyTests-frameworks.sh */,
+				FD50C299D59671D23F413E412995913E /* Pods-niplyTests-resources.sh */,
+				F143F94A5FA564823B9B68AE0E453C1A /* Pods-niplyTests-umbrella.h */,
+				B89647A7E4897EF0644AAFD79DD8FF6B /* Pods-niplyTests.debug.xcconfig */,
+				5449500671121C17DA8666EB5DCCFD8D /* Pods-niplyTests.release.xcconfig */,
+			);
+			name = "Pods-niplyTests";
+			path = "Target Support Files/Pods-niplyTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				255ADAFBD08261E48515F5745B2F9E54 /* Pods */,
+				FCE661840E9928BF6775F1C7C5F99142 /* Products */,
+				BEE1071B3628CDD816A0CB7DE70122BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE1071B3628CDD816A0CB7DE70122BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F967C1679DA3D3535540BF04DB3D2E7C /* Pods-niply */,
+				7A6A1FB83F02C5E09AF0D24A6954F616 /* Pods-niplyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C32121A9B3FB58A70DE5F1DBD822057F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4620FB8EC7E2B3BD86D7A4D5D9359A15 /* Info.plist */,
+				56E6D73B26757E55738129EB28CEC938 /* SimpleAnimation.modulemap */,
+				A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */,
+				9364EB3F1271342C392E03365E833BB1 /* SimpleAnimation-dummy.m */,
+				D406DFC87AD16510E46BFBD9A1B17BB1 /* SimpleAnimation-prefix.pch */,
+				C2A56D6BF3BE11B9845B21FE0789C040 /* SimpleAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleAnimation";
+			sourceTree = "<group>";
+		};
+		F967C1679DA3D3535540BF04DB3D2E7C /* Pods-niply */ = {
+			isa = PBXGroup;
+			children = (
+				C1CD49A5BC6CFA91BF25205C89FB1C04 /* Info.plist */,
+				76BDFA77B718AEB1160E17B121E0D439 /* Pods-niply.modulemap */,
+				E6E59A229ABE365869D044F071D04A56 /* Pods-niply-acknowledgements.markdown */,
+				7F7CD638F3D93017E81F966A52DD3EBA /* Pods-niply-acknowledgements.plist */,
+				70BB63DAF10355E39350FD778A3C1804 /* Pods-niply-dummy.m */,
+				944AFF48C00E95F80A56AEC0F639CC7C /* Pods-niply-frameworks.sh */,
+				DA11D945AC2F86767DE12D82F0D98901 /* Pods-niply-resources.sh */,
+				58CBD8CE1C595A20AB2DF7368AE6C28F /* Pods-niply-umbrella.h */,
+				C9903BC0AF940418CE18E6526ADE09A5 /* Pods-niply.debug.xcconfig */,
+				351ED79C0B51023D281162B50360DCD6 /* Pods-niply.release.xcconfig */,
+			);
+			name = "Pods-niply";
+			path = "Target Support Files/Pods-niply";
+			sourceTree = "<group>";
+		};
+		FCE661840E9928BF6775F1C7C5F99142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E02C0C125CF45E7255FF724E3AE609 /* Pods_niply.framework */,
+				A52C23674750CFCF4F99EF2A6ADC00CC /* Pods_niplyTests.framework */,
+				60356D113FEDBCA062C9AF91C076C90F /* SimpleAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0677AF06C36EDBF05C5D060214BF33B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992A822ABD3CBB92A7B9B185E1FCFE66 /* Pods-niply-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D3AECBAC11004ADF55787652C0484B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCE659685A5D51AF39E5B1DDC319F0C /* SimpleAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6331C010D6EAB90249E9837EFCE44B52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501F52F49C7A617AEEE1B30BD94A7A37 /* Pods-niplyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00E8FF90618AAA6D5FF52B179DEED590 /* Pods-niplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF503C0252BAC73DEBD1029FE91DBA2 /* Build configuration list for PBXNativeTarget "Pods-niplyTests" */;
+			buildPhases = (
+				FD1DC7482D18FC8AC94080F91397B79A /* Sources */,
+				322D575C4729D026F976DB1E120393CE /* Frameworks */,
+				6331C010D6EAB90249E9837EFCE44B52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15B6B759AEE2A9A90EAE3BBEC340F8ED /* PBXTargetDependency */,
+			);
+			name = "Pods-niplyTests";
+			productName = "Pods-niplyTests";
+			productReference = A52C23674750CFCF4F99EF2A6ADC00CC /* Pods_niplyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		153B35055FD894F161518B1A4D019479 /* SimpleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203131475968825070E03780BA0CED23 /* Build configuration list for PBXNativeTarget "SimpleAnimation" */;
+			buildPhases = (
+				CB1DC075B6AC96DA84659F9813C42850 /* Sources */,
+				BE45F281253178D496AD0782AB0759DE /* Frameworks */,
+				1D3AECBAC11004ADF55787652C0484B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAnimation;
+			productName = SimpleAnimation;
+			productReference = 60356D113FEDBCA062C9AF91C076C90F /* SimpleAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5390465F98BEBA1A2CFA3B507A31544 /* Pods-niply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1ADEC15DDFF93759B721FC41BF2FCDB /* Build configuration list for PBXNativeTarget "Pods-niply" */;
+			buildPhases = (
+				031987F46DFF953330C9388F25F10D85 /* Sources */,
+				BD8AF5AD0EF54C434D9FFF29FB72E4C8 /* Frameworks */,
+				0677AF06C36EDBF05C5D060214BF33B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E63576BBC062D7E89057F1D232CD57D /* PBXTargetDependency */,
+			);
+			name = "Pods-niply";
+			productName = "Pods-niply";
+			productReference = 70E02C0C125CF45E7255FF724E3AE609 /* Pods_niply.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCE661840E9928BF6775F1C7C5F99142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5390465F98BEBA1A2CFA3B507A31544 /* Pods-niply */,
+				00E8FF90618AAA6D5FF52B179DEED590 /* Pods-niplyTests */,
+				153B35055FD894F161518B1A4D019479 /* SimpleAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031987F46DFF953330C9388F25F10D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC03E0AD40B1938C2D994A375AA2F010 /* Pods-niply-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1DC075B6AC96DA84659F9813C42850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB72C2F3F47D0E0FE36BF27C2CA00145 /* Info.plist in Sources */,
+				9594FDD7710C653E124DBD900553491F /* SimpleAnimation-dummy.m in Sources */,
+				DBCBA67E8AED6237DDDD79858F6A31EF /* UIView+SimpleAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1DC7482D18FC8AC94080F91397B79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA75017186F9A53E56B7C370FE3A713 /* Pods-niplyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15B6B759AEE2A9A90EAE3BBEC340F8ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-niply";
+			target = D5390465F98BEBA1A2CFA3B507A31544 /* Pods-niply */;
+			targetProxy = 7A4B47F54AD760F8E359A376226E7D11 /* PBXContainerItemProxy */;
+		};
+		4E63576BBC062D7E89057F1D232CD57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleAnimation;
+			target = 153B35055FD894F161518B1A4D019479 /* SimpleAnimation */;
+			targetProxy = 45F2CBDDCAAFA9FC237FE5FAF955DFE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BF351842100B8D36632273927520FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleAnimation/SimpleAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleAnimation/SimpleAnimation.modulemap";
+				PRODUCT_MODULE_NAME = SimpleAnimation;
+				PRODUCT_NAME = SimpleAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26346ECBCC232533F17ED87FCF62ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351ED79C0B51023D281162B50360DCD6 /* Pods-niply.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niply/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niply/Pods-niply.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9C4635DBE3A84DA796D4337943EB788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E4EB38E2C65EE04BA31C4FD4EA6DF8 /* SimpleAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleAnimation/SimpleAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleAnimation/SimpleAnimation.modulemap";
+				PRODUCT_MODULE_NAME = SimpleAnimation;
+				PRODUCT_NAME = SimpleAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECC3EF4CDF6960A166DBCD271242A188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9903BC0AF940418CE18E6526ADE09A5 /* Pods-niply.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niply/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niply/Pods-niply.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8BCE66DB734B8396DE4ABE14749FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5449500671121C17DA8666EB5DCCFD8D /* Pods-niplyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niplyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niplyTests/Pods-niplyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFB2DA822E9839FB090C30EE79D541A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89647A7E4897EF0644AAFD79DD8FF6B /* Pods-niplyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-niplyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-niplyTests/Pods-niplyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203131475968825070E03780BA0CED23 /* Build configuration list for PBXNativeTarget "SimpleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C4635DBE3A84DA796D4337943EB788 /* Debug */,
+				7BF351842100B8D36632273927520FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF503C0252BAC73DEBD1029FE91DBA2 /* Build configuration list for PBXNativeTarget "Pods-niplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2DA822E9839FB090C30EE79D541A8 /* Debug */,
+				F8BCE66DB734B8396DE4ABE14749FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1ADEC15DDFF93759B721FC41BF2FCDB /* Build configuration list for PBXNativeTarget "Pods-niply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC3EF4CDF6960A166DBCD271242A188 /* Debug */,
+				A26346ECBCC232533F17ED87FCF62ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
